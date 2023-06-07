@@ -1,0 +1,2 @@
+# bardapi
+Google Bard API
