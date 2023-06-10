@@ -60,6 +60,7 @@ app.get('/', async (req, res) => {
 
     // Send the response content as JSON
     res.json({ content: response.content });
+    console.log(input, response)
   } catch (error) {
     // Send an internal server error response with the error message
     res.status(500).send(error.message);
